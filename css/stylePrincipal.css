@@ -199,7 +199,7 @@ a:hover, a:focus {color: #17a78b}
     float: right;
     font-size: 200%;
     margin-right:1%;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 .containerCarousel{
     width:40%;
@@ -281,6 +281,30 @@ a:hover, a:focus {color: #17a78b}
   font-size: 30px;
   color: white;
   background: #65576E;
+  border: 0;
+  margin-bottom:2%;
+}
+.boutonMarronClaire {
+  position: relative;
+  vertical-align: top;
+  width: auto;
+  height: 60px;
+  padding: 0;
+  font-size: 30px;
+  color: white;
+  background: #D8B073;
+  border: 0;
+  margin-bottom:2%;
+}
+.boutonBleuFonce {
+  position: relative;
+  vertical-align: top;
+  width: auto;
+  height: 60px;
+  padding: 0;
+  font-size: 30px;
+  color: white;
+  background: #23283E;
   border: 0;
   margin-bottom:2%;
 }
