@@ -206,10 +206,6 @@ a:hover, a:focus {color: #17a78b}
     margin-top: 2%;
     margin-bottom:2%;
     display: inline-block;
-
-}
-.droiteKorben{
-    display: inline-block;
 }
 #mainKorben{
     display: inline-block;
@@ -228,7 +224,7 @@ a:hover, a:focus {color: #17a78b}
     font-size: 200%;
     display: inline-block;
     margin-left:7%;
-    font-family: 'Josefin Sans', sans-serif, 700i;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #choixMain{
     margin-left: 2%;
@@ -240,9 +236,51 @@ a:hover, a:focus {color: #17a78b}
     margin-right: 5%;
     margin-bottom: 3%;
     font-size: 150%;
-    text-align:justify;
+    text-align:justify; 
 }
 #photoMain{
     margin-left: 3%;
     margin-top: 2%;
+}
+.droiteKorben{
+    display: inline-block;
+    position: absolute;
+    margin-top: 5%;
+    font-size:300%;
+}
+.orangeCaval{
+    color:#D59A72;
+}
+.vertCaval{
+    color:#3A5860;
+}
+.descriptifPage{
+    margin-right: 7%;
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+.boutonVert {
+  position: relative;
+  vertical-align: top;
+  width: auto;
+  height: 60px;
+  padding: 0;
+  font-size: 30px;
+  color: white;
+  background: #3A5860;
+  border: 0;
+  margin-bottom:2%;
+}
+
+.boutonMarronFonce {
+  position: relative;
+  vertical-align: top;
+  width: auto;
+  height: 60px;
+  padding: 0;
+  font-size: 30px;
+  color: white;
+  background: #65576E;
+  border: 0;
+  margin-bottom:2%;
 }
