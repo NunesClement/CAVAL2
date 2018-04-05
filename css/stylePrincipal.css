@@ -225,6 +225,7 @@ a:hover, a:focus {color: #17a78b}
     display: inline-block;
     margin-left:7%;
     font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 2%;
 }
 #choixMain{
     margin-left: 2%;
@@ -259,6 +260,19 @@ a:hover, a:focus {color: #17a78b}
     font-size: 200%;
     margin-bottom: 5%;
 }
+.imageQualite{
+    display: inline-block;
+    width: 48%;
+    float: right;
+    margin-right: 1%;
+    margin-bottom: 7%;
+}
+.descriptifQualite{
+    margin-right: 10%;
+    font-size: 120%;
+    margin-bottom: 4%;
+}
+/*PACK DE BOUTON*/
 .boutonVert {
   position: relative;
   vertical-align: top;
@@ -307,4 +321,21 @@ a:hover, a:focus {color: #17a78b}
   background: #23283E;
   border: 0;
   margin-bottom:2%;
+}
+/*PLAN DU SITE*/
+.h1plan{
+	font-size:30px;
+	margin-bottom:5%;
+}
+.h2plan{
+	font-size:20px;
+}
+.h3plan{
+	margin: 2.5%;
+}
+#plan{
+	margin: 5% 0% 5% 40%;
+}
+#planHeader ,#planfooter{
+	margin:2.5% 0% 0% 2.5%;
 }
