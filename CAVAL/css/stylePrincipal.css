@@ -1,0 +1,328 @@
+/*Le CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.floatleft { float: left }
+.floatright { float: right }
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0px solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fix { overflow: hidden }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+}
+body { font-family: 'Josefin Sans', sans-serif, Helvetica, sans-serif; }
+
+.header-area {
+    background: none repeat scroll 0 0 #f4f4f4;
+}
+.header-area a {
+    color: #888;
+}
+.user-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.user-menu li {
+    display: inline-block;
+}
+.user-menu li a {
+    display: block;
+    font-size: 13px;
+    margin-right: 5px;
+    padding: 10px;
+}
+.user-menu li a i.fa {
+    margin-right: 5px;
+}
+
+.mainmenu-area {background: none repeat scroll 0 0 #ffffff;
+font-family: 'Josefin Sans', sans-serif;
+text-transform: uppercase;
+width: 100%;
+z-index: 999;}
+
+.logo h1 {
+    font-size: 40px;
+    margin: 30px 0;
+    font-weight: 400;
+}
+.logo h1 a {
+    color: #999;
+}
+.logo h1 a:hover {text-decoration: none;opacity: .7}
+.logo h1 a span {
+    color: #5a88ca;
+}
+.logo{
+    color : #edeff5;
+    margin-top: 2%;
+    margin-bottom: 2.2%;
+}
+.mainmenu-area ul.navbar-nav li:hover a, .mainmenu-area ul.navbar-nav li.active a {background: #D59A72; color:#FFF;}
+.mainmenu-area .nav > li > a:focus {color: #FFF;}
+.maincontent-area {padding-bottom: 50px; padding-top:20px;}
+.product-widget-area .zigzag-bottom{background: #f4f4f4;}
+.footer-top-area .zigzag-bottom{background: #f4f4f4}
+.footer-top-area {background: none repeat scroll 0 0 #333;
+color: #999;
+padding: 30px 0px 50px;}
+
+
+.footer-bottom-area {background: #000;color: #fff}
+.footer-about-us{
+    color: #FFF;
+}
+.footer-about-us span {
+  color: #5a88ca;
+  font-weight: bold;
+}
+.about-us-2{
+    color: #FFF;
+    margin-bottom: 3%;
+}
+.about-us-2 span{
+  color: #FF9000;
+  font-weight: bold;
+}
+.footer-wid-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 100;color: #fff;
+}
+
+.footer-about-us h2 {
+  font-weight: 250;
+}
+.footer-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.footer-menu ul li {
+    border-bottom: 1px dashed #555;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.footer-menu a {
+    display: block;
+    padding: 5px 0;color: #999
+}
+
+.footer-social a {
+  background: none repeat scroll 0 0 ;
+      color: #fff;
+  display: inline-block;
+  font-size: 30px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 5px;
+  text-align: center;
+  width: 60px;border: 1px solid ;
+}
+
+.footer-social a:hover {background-color: #222;border-color: #666}
+
+.footer-social {margin-top: 20px}
+a {color: #5a88ca}
+a:hover, a:focus {color: #17a78b}
+.footer-bottom-area {
+  background: none repeat scroll 0 0 #000;
+  color: #fff;
+}
+.Categorie{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.Element{
+    float: right;
+    font-size: 200%;
+    margin-right:1%;
+    margin-top: 2%;
+}
+.containerCarousel{
+    width:40%;
+    margin-top: 2%;
+    margin-bottom:2%;
+    display: inline-block;
+}
+#mainKorben{
+    display: inline-block;
+}
+.imageM1{
+    margin-right:1%;
+}
+.titleMain{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 200%;
+    color: #956366;
+    margin-top: 3%;
+    text-align: center;
+}
+.textMenu{
+    font-size: 200%;
+    display: inline-block;
+    margin-left:7%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#choixMain{
+    margin-left: 2%;
+    margin-top: 4%;
+}
+#mainContact{
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    font-size: 150%;
+    text-align:justify; 
+}
+#photoMain{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.droiteKorben{
+    display: inline-block;
+    position: absolute;
+    margin-top: 5%;
+    font-size:300%;
+}
+.orangeCaval{
+    color:#D59A72;
+}
+.vertCaval{
+    color:#3A5860;
+}
+.descriptifPage{
+    margin-right: 7%;
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+/*PACK DE BOUTON*/
+.boutonVert {
+  position: relative;
+  vertical-align: top;
+  width: auto;
+  height: 60px;
+  padding: 0;
+  font-size: 30px;
+  color: white;
+  background: #3A5860;
+  border: 0;
+  margin-bottom:2%;
+}
+
+.boutonMarronFonce {
+  position: relative;
+  vertical-align: top;
+  width: auto;
+  height: 60px;
+  padding: 0;
+  font-size: 30px;
+  color: white;
+  background: #65576E;
+  border: 0;
+  margin-bottom:2%;
+}
+.boutonMarronClaire {
+  position: relative;
+  vertical-align: top;
+  width: auto;
+  height: 60px;
+  padding: 0;
+  font-size: 30px;
+  color: white;
+  background: #D8B073;
+  border: 0;
+  margin-bottom:2%;
+}
+.boutonBleuFonce {
+  position: relative;
+  vertical-align: top;
+  width: auto;
+  height: 60px;
+  padding: 0;
+  font-size: 30px;
+  color: white;
+  background: #23283E;
+  border: 0;
+  margin-bottom:2%;
+}
+/*PLAN DU SITE*/
+.h1plan{
+	font-size:30px;
+	margin-bottom:5%;
+}
+.h2plan{
+	font-size:20px;
+}
+.h3plan{
+	margin: 2.5%;
+}
+#plan{
+	margin: 5% 0% 5% 40%;
+}
+#planHeader ,#planfooter{
+	margin:2.5% 0% 0% 2.5%;
+}
