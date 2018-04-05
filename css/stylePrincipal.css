@@ -212,6 +212,7 @@ a:hover, a:focus {color: #17a78b}
 }
 .imageM1{
     margin-right:1%;
+    width: 22%;
 }
 .titleMain{
     font-family: 'Josefin Sans', sans-serif;
@@ -225,6 +226,12 @@ a:hover, a:focus {color: #17a78b}
     display: inline-block;
     margin-left:7%;
     font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 2%;
+}
+.idImage{
+    float: left;
+    width: 57%;
+    margin-right: 2%;
     margin-bottom: 2%;
 }
 #choixMain{
@@ -257,8 +264,9 @@ a:hover, a:focus {color: #17a78b}
 }
 .descriptifPage{
     margin-right: 7%;
-    font-size: 200%;
+    font-size: 130%;
     margin-bottom: 5%;
+    text-align: none;
 }
 .imageQualite{
     display: inline-block;
